@@ -2,7 +2,7 @@
 
 **CM763 AI Course Project**
 
-**Author:** 
+**Authors:** 
 - **Nan**	1137130
 - **Adam** 1137166
 - **Fon** 1137183
