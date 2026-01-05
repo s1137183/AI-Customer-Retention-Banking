@@ -32,13 +32,14 @@ We rigorously evaluated 6 models using a standardized preprocessing pipeline and
 ### Stage 2: Behavioral Segmentation
 Following the prediction phase, 8,717 "Not Churn" customers were segmented using **Standard K-Means** ($K=4$), which was chosen over Autoencoder and DBSCAN for its superior business interpretability.
 
+
 ## Customer Personas (The 4 Segments)
 | Cluster | Persona | Key Characteristics | Strategy |
 | :--- | :--- | :--- | :--- |
-| **1** | **Established VIPs** | Balance $\approx \$120k$, $100\%$ Active | High-touch retention |
-| **3** | **The Dormant Rich** | Balance $\approx \$121k$, **$0\%$ Activity**  | Urgent re-activation  |
-| **2** | **The Transactors** | Low balance ($\$762$), High usage  | Deposit growth  |
-| **0** | **The No-Card Savers** | Healthy balance, **$0\%$ Credit Card**  | Cross-selling cards |
+| **1** | **Established VIPs** | Balance ≈ $120k, 100% Active | High-touch retention |
+| **3** | **The Dormant Rich** | Balance ≈ $121k, 0% Activity | Urgent re-activation |
+| **2** | **The Transactors** | Low balance ($762), High usage | Deposit growth |
+| **0** | **The No-Card Savers** | Healthy balance, No Credit Card | Cross-selling cards |
 
 ## Tech Stack
 - **Language:** Python
@@ -76,8 +77,8 @@ Follow these steps to reproduce the results:
 Clone this repository to your local machine:
 
 ```bash
-git clone <INSERT-YOUR-GITHUB-LINK-HERE>
-cd <YOUR-REPO-NAME>
+git clone https://github.com/s1137183/AI-Customer-Retention-Banking.git
+cd AI-Customer-Retention-Banking
 ```
 
 ### Step 2: Data Configuration
